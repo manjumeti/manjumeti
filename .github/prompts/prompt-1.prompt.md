@@ -1,0 +1,41 @@
+---
+agent: agent
+---
+
+Write production-ready Python code for a reusable class-based ServiceNow API client.
+
+Requirements:
+1. Use the `requests` library.
+2. Implement a `ServiceNowClient` class with:
+    - __init__(instance_url, username, password)
+    - get_records(table_name, query_params=None)
+    - save_to_csv(records, file_path)
+    - save_to_json(records, file_path)
+3. The get_records method must:
+    - Call the ServiceNow REST API endpoint `/api/now/table/{table_name}`
+    - Support optional query parameters: sysparm_query, sysparm_limit, sysparm_fields, etc.
+    - Handle pagination using `sysparm_offset` if more results exist.
+    - Use exponential backoff retry logic for HTTP 429 and 5xx errors.
+    - Raise readable exceptions for non-success responses.
+    - Return a Python list of dictionary records.
+
+4. Implement exponential backoff as:
+    - Retry on HTTP status codes: 429, 500, 502, 503, 504
+    - Initial delay: 1 second; double on each retry
+    - Max retries: 5
+
+5. CSV/JSON Export:
+    - `save_to_csv(records, file_path)` saves list of dicts to CSV using `csv.DictWriter`
+    - `save_to_json(records, file_path)` writes pretty-formatted JSON
+
+6. Write a main() example that:
+    - Instantiates the client
+    - Fetches incidents where state=2
+    - Saves results to both JSON and CSV files
+    - Prints the count of retrieved records
+
+7. Include clean, well-structured code with:
+    - Docstrings
+    - Logging using Python's logging module
+    - Type hints
+    - Clear error messages
