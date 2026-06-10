@@ -11,7 +11,9 @@
 
 <!-- <p align="left"> <a href=""><img src="https://github-profile-trophy.vercel.app/?username=manjumeti&margin-w=15 alt="manjumeti" /></a> </p> -->
 
-### 🛠 &nbsp;Languages and Tools
+## 🛠 &nbsp;Languages and Tools
+<br/>
+
 [![My Skills](https://skillicons.dev/icons?i=splunk,python,mysql,sqlite,aws,linux,nix,docker,kubernetes,ansible,git,jenkins,postman,vscode&perline=20)](https://skillicons.dev)
 
 <!--- ### ⚙️ &nbsp;GitHub Analytics
@@ -24,13 +26,16 @@
 </p>
 -->
 
-### 🤝🏻 &nbsp;Connect with Me
+## 🤝🏻 &nbsp;Connect with Me
 
-<p align="center">
-<a href="https://www.manjunathmeti.in"><img src="https://img.shields.io/badge/-manjunathmeti.in-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
-<a href="https://linkedin.com/in/manjunathmeti"><img src="https://img.shields.io/badge/-Manjunath%20Meti-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:mymanjunath15@gmail.com"><img src="https://img.shields.io/badge/-mymanjunath15@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://instagram.com/immanjunath"><img src="https://img.shields.io/badge/-@immanjunath-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+<br/>
+<p align="left">
+<a href="https://www.manjunathmeti.in" target="_blank"><img src="https://img.shields.io/badge/-manjunathmeti.in-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
+<a href="https://linkedin.com/in/manjunathmeti" target="_blank"><img src="https://img.shields.io/badge/-Manjunath%20Meti-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:mymanjunath15@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-mymanjunath15@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://instagram.com/immanjunath" target="_blank"><img src="https://img.shields.io/badge/-@immanjunath-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+<a href="https://community.splunk.com/t5/user/viewprofilepage/user-id/129090" target="_blank"><img src="https://img.shields.io/badge/-Splunk%20communit%20profile-1769FF?style=flat&logo=Splunk&logoColor=white"/></a>
+</p>
 </p>
 
 <!-- 
